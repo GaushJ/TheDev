@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+.signupImage{
+    height:40em;
+    
+}
+.web_dev_page_heading{
+    font-family: 'Poppins', sans-serif;
+}
+.text-gradient{
+    
+    background: #CF32BF;
+    background: -webkit-linear-gradient(to right, #CF32BF 1%, #0EA8CF 100%);
+    background: -moz-linear-gradient(to right, #CF32BF 1%, #0EA8CF 100%);
+    background: linear-gradient(to right, #CF32BF 1%, #0EA8CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-gradient-blue{
+    
+    background: #386cdb;
+    background: -webkit-linear-gradient(to right, #37e640 1%, #0EA8CF 100%);
+    background: -moz-linear-gradient(to right, #37e640 1%, #0EA8CF 100%);
+    background: linear-gradient(to right, #37e640 1%, #0EA8CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Project Card Image Background Gradient*/
+#background-gradient-1{
+    background-image: linear-gradient(to right top, #4bdc90, #43dc9f, #3fdcad, #42dcb9, #4adbc4, #4cdcc1, #4fdebe, #53dfba, #5ee2a5, #73e38c, #8de370, #a9e152);
+}
+#background-gradient-2{
+    background-image: linear-gradient(to right top, #f081c0, #f578af, #f76f9d, #f8678b, #f66177, #f95d77, #fc5878, #ff5378, #ff4e90, #ff4eab, #ff54c9, #fb5fe7);
+}
+#background-gradient-3{
+    background-image: linear-gradient(to right top, #51dd8d, #00ccc9, #00b1ff, #0087ff, #8b00ff);
+}
+#background-gradient-4{
+    background-image: linear-gradient(to right top, #dd5151, #e07f2e, #caae1e, #99d94f, #00ffa4);
+}
+#background-gradient-5{
+    background-image: linear-gradient(to right top, #ddd051, #ffa64b, #ff7772, #ff59ad, #c465e7);
+}
+#background-gradient-6{
+    background-image: linear-gradient(to right bottom, #ec65b2, #dd6fc7, #c97ad9, #b285e7, #968ff1, #769af9, #50a4fb, #16adf9, #00b8f1, #00c1e4, #15c8d5, #50cdc5);
+}
+.signup_page_background{
+    background-color: #ff7700;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cc0000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d6002b' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b10022' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d9004b' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b2003d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d3006c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ac0057' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c4008c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%239e0071' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
+.selected_video{
+    background-color: rgb(111, 190, 236);
+    color: rgb(82, 184, 243);
+}
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+  }
+  
+  .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
