@@ -52,10 +52,10 @@ function App() {
         
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Signup />} />
-         {/* <Route
+         <Route
           path="/categories"
           element={user ? <Categories /> : <Signup />}
-        />  */}
+        />  
            <Route path="/categories" element={<Categories />} />   
 
         <Route path="/andDev" element={<AndroidDev />} >
