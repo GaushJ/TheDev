@@ -18,6 +18,7 @@ const Home = () => {
         header="with Tech"
         height="100"
         width="100"
+        link="/categories"
         description="If you're a someone that's curious about tech but not sure where to start -- this is the spot for you. Learn + start building cool stuff right now."
         lottieSrc="https://assets9.lottiefiles.com/packages/lf20_vnikrcia.json"
       />

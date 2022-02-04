@@ -12,13 +12,14 @@ function WebDev() {
       <Content
         heading="Web Development"
         track="true"
+        link="#content"
         description="Get started with Web Development using 
     latest technologies like React , Angular and the building
     blocks of all HTML CSS and Javascript. Tailwind CSS or Bootstrap
     , learn anything and its all FREE"
         lottieSrc="https://assets8.lottiefiles.com/packages/lf20_hntzYU.json"
       />
-      <div className="grid grid-cols-2 gap-4 xl:m-64 p-4">
+      <div className="grid md:m-36 sm:grid-cols-2 gap-4 xl:mx-64 mb-64 p-4" id="content">
 
 {subCategories.webDevelopment.map((val,index)=>{return(
           <ProjectCard

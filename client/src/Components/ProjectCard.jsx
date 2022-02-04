@@ -12,12 +12,12 @@ const ProjectCard = (props) => {
       >
 
         <div className="flex flex-col w-full h-full p-2 justify-center">
-          <div className="w-full h-1/2 flex justify-center">
+          <div className="w-full h-1/2  flex justify-center">
             <img src={props.image} alt="ProjectCard" className="w-1/2 h-full" />
           </div>
-          <div className="h-1/2  flex flex-col justify-center">
+          <div className="h-1/2 w-full flex flex-col justify-center">
             
-              <div className="text-3xl font-bold text-gray-800 flex  justify-center  ">
+              <div className="text-3xl font-bold text-gray-800 flex  justify-center text-center  ">
                 {props.subject}
               </div>
               <div className="font-medium text-xl text-gray-700 p-4">

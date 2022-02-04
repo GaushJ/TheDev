@@ -9,13 +9,14 @@ function AndroidDev() {
       <Content
         heading="Android Development"
         track="true"
+        link="#content"
         description="Get started with Android Development using 
       latest technologies like React Native , Flutter and the building
       blocks of all Kotlin. Tailwind CSS or Bootstrap
       , learn anything and its all FREE"
         lottieSrc="https://assets9.lottiefiles.com/private_files/lf30_xvszazyd.json"
       />
-<div className="grid grid-cols-2 gap-4 xl:m-64 p-4">
+<div className="grid grid-cols-2 gap-4 xl:m-64 p-4" id='content'>
 
 {subCategories.androidDevelopment.map((val,index)=>{return(
           <ProjectCard

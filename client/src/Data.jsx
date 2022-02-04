@@ -80,7 +80,7 @@ export const subCategories = {
       link: 'frontendDevelopment',
       image: IMAGES.frontend,
       subject: 'Front End Development',
-      description: 'Already Know React ? Learn React Native to enter android world and make beautiful apps with just react.',
+      description: 'Wanna make interactive websites? Learn the basics of HTML CSS and JavaScript to get started.',
       background: 'background-gradient-1'
     },
     {
@@ -88,15 +88,15 @@ export const subCategories = {
       link: 'backend',
       image: IMAGES.backend,
       subject: 'Back End and Database',
-      description: ' Learn Dart aand Flutter to enter android world and make beautiful Apps.',
-      background: 'background-gradient-2'
+      description: 'Learn and Build seamless backend infrastructure for your full stack projects.',
+      background: 'background-gradient-6'
     },
     {
       key: '3',
       link: 'mern',
       image: IMAGES.projects,
       subject: 'MERN',
-      description: ' Learn Dart aand Flutter to enter android world and make beautiful Apps.',
+      description: " Make a full stack web application to put everything you've learnt so far from database to frontend",
       background: 'background-gradient-3'
     },
     {
@@ -104,7 +104,7 @@ export const subCategories = {
       link: 'reactjs',
       image: IMAGES.reactjs,
       subject: 'ReactJS',
-      description: ' Learn Dart aand Flutter to enter android world and make beautiful Apps.',
+      description: ' ReactJS is a popular UI library to make reusable components to be used in your web apps ',
       background: 'background-gradient-2'
     },
     {
@@ -112,8 +112,8 @@ export const subCategories = {
       link: 'redux',
       image: IMAGES.reactjs,
       subject: 'Redux',
-      description: ' Learn Dart aand Flutter to enter android world and make beautiful Apps.',
-      background: 'background-gradient-2'
+      description: ' redux is used for state management in your react apps . Never worry about state when using this library.',
+      background: 'background-gradient-6'
     },
 
   ],
@@ -123,7 +123,7 @@ export const subCategories = {
       link: 'ARbasics',
       image: IMAGES.ARCoverImage,
       subject: 'Unity AR Foundation',
-      description: 'Already Know React ? Learn React Native to enter android world and make beautiful apps with just react.',
+      description: 'Learn the basics of UnityAR to build immersive experiences. ',
       background: 'background-gradient-1'
     },
     {
@@ -131,7 +131,7 @@ export const subCategories = {
       link: 'advancedAR',
       image: IMAGES.AdvancedAR,
       subject: 'Advanced AR',
-      description: ' Learn Dart aand Flutter to enter android world and make beautiful Apps.',
+      description: ' Learn advanced AR to build seamless Augmented Reality Apps',
       background: 'background-gradient-2'
     },
     {
@@ -139,7 +139,7 @@ export const subCategories = {
       link: 'ARprojects',
       image: IMAGES.projects,
       subject: 'Projects',
-      description: ' Learn Dart aand Flutter to enter android world and make beautiful Apps.',
+      description: ' Build a real life project to practice augmented reality',
       background: 'background-gradient-3'
     },
   ],
@@ -149,7 +149,7 @@ export const subCategories = {
       link: 'blockchain',
       image: IMAGES.block_dev1,
       subject: 'Blockchain Basics',
-      description: 'Already Know React ? Learn React Native to enter android world and make beautiful apps with just react.',
+      description: 'Interested in web3 ? Learn the basics of Blockchain and underlying principles of crypto.',
       background: 'background-gradient-1'
     },
     {
@@ -157,7 +157,7 @@ export const subCategories = {
       link: 'solidity',
       image: IMAGES.solidity,
       subject: 'solidity programming',
-      description: 'Already Know React ? Learn React Native to enter android world and make beautiful apps with just react.',
+      description: 'Learn solidity to build DApps on Etheream Blockchain and experience web3.',
       background: 'background-gradient-2'
     },
 

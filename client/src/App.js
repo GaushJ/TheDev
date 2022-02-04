@@ -15,10 +15,12 @@ import VideoComponent from './Components/VideoComponent'
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 
+
 function App() {
    const [user, setUser] = useState(null)
 
    useEffect(() => {
+    
      const getUser = () => {
        fetch('http://localhost:5000/auth/login/success', {
          method: 'GET',
@@ -47,12 +49,14 @@ function App() {
       <Navbar user={user} />
 
       <Routes>
+        
         <Route path="/" element={<Home />} />
-         <Route
-          path="/login"
-          element={user ? <Navigate to="/categories" /> : <Signup />}
-        /> 
-         <Route path="/categories" element={<Categories />} /> 
+        <Route path="/login" element={<Signup />} />
+         {/* <Route
+          path="/categories"
+          element={user ? <Categories /> : <Signup />}
+        />  */}
+           <Route path="/categories" element={<Categories />} />   
 
         <Route path="/andDev" element={<AndroidDev />} >
         </Route>

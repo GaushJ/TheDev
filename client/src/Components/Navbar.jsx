@@ -16,7 +16,7 @@ function Navbar({ user }) {
                 <NavLink to="/" className="flex flex-row ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="text-purple-700 mr-2 h-8 w-6"
+                    className="text-purple-700 mr-2 h-7 w-6 "
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -28,7 +28,7 @@ function Navbar({ user }) {
                       d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
                     />
                   </svg>
-                  <span className="font-bold text-2xl text-gradient ">DevHub</span>
+                  <span className="font-bold text-xl md:text-2xl text-gradient ">DevHub</span>
                 </NavLink>
               </div>
             </div>
@@ -53,7 +53,7 @@ function Navbar({ user }) {
                
                 <NavLink
                   to="/login"
-                  className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 py-2 px-4 rounded-lg text-white  transition duration-200"
+                  className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 py-1 md:py-2 px-4 rounded-sm text-white  transition duration-200 text-base md:text-xl"
                 >
                   Login
                 </NavLink>

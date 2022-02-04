@@ -40,6 +40,10 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    
+    <script>
+      window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+    </script>
   </body>
 </html>

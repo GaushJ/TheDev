@@ -3,7 +3,9 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-
+html {
+    scroll-behavior: smooth;
+  }
 .signupImage{
     height:40em;
     
