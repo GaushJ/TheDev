@@ -54,7 +54,7 @@ function App() {
         <Route path="/login" element={<Signup />} />
          <Route
           path="/categories"
-          element={user ? <Categories /> : <Signup />}
+          element={ <Categories />}
         />  
            <Route path="/categories" element={<Categories />} />   
 

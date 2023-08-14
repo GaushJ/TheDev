@@ -32,33 +32,7 @@ function Navbar({ user }) {
                 </NavLink>
               </div>
             </div>
-            {user ? (
-              <div className="py-7 text-xl font-medium">
-                <NavLink
-                  to="/login"
-                  onClick={logout}
-                  className="mr-4 text-white bg-red-500 hover:bg-red-400 py-2  px-2 rounded-md font-medium transition duration-200"
-                >
-                  Log out
-                </NavLink>
-                <NavLink
-                  to="/categories"
-                  className="text-white bg-purple-500 hover:bg-purple-400 rounded-md py-2 px-2 font-medium transition duration-200"
-                >
-                  Projects
-                </NavLink>
-              </div>
-            ) : (
-              <div className="py-7 text-xl font-medium">
-               
-                <NavLink
-                  to="/login"
-                  className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 py-1 md:py-2 px-4 rounded-sm text-white  transition duration-200 text-base md:text-xl"
-                >
-                  Login
-                </NavLink>
-              </div>
-            )}
+        
           </div>
         </div>
       </nav>
