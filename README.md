@@ -1,53 +1,40 @@
 
 # Codyfy 
 
-![Next.js Project](https://github.com/GaushJ/car_hub/assets/53349226/7de9c3c3-93d5-4a33-9bf9-3d78ebd58e02)
-![Next.js Project](https://github.com/GaushJ/car_hub/assets/53349226/7de9c3c3-93d5-4a33-9bf9-3d78ebd58e02)
-![Next.js Project](https://github.com/GaushJ/car_hub/assets/53349226/7de9c3c3-93d5-4a33-9bf9-3d78ebd58e02)
+![Next.js Project](https://github.com/GaushJ/TheDev/assets/53349226/36ce50b4-d8eb-48df-819d-5ea7df3ccb74)
+![Next.js Project](https://github.com/GaushJ/TheDev/assets/53349226/1839ac5d-6975-4f38-a979-2e7a0f8b8288)
+![Next.js Project](https://github.com/GaushJ/TheDev/assets/53349226/016569f5-9d02-4dd1-9076-1df315b6b362)
 
 ## Tech Stack
 
 **Frontend:**
-- Next.js
-- TypeScript
 - React
 - TailwindCSS
-- RapidAPI
+- YouTubeAPI
 
 **Deployment:**
-- Vercel
+- Netlify
 
 ## Project Description
 
-Welcome to the Car Rental Marketplace UI project! This web application is designed to provide users with a seamless experience for searching and exploring various cars available for rent.
+Welcome to Codyfy! This web application is designed to provide users with a seamless experience for exploring various coding courses in different software development domains. It is useful to avoid tutorial hell on YouTube and focus on dedicated playlists without any distractions.
 
 ### Features:
 
-- **User-Friendly Interface:** The frontend is built using Next.js, offering smooth navigation and responsive design for both desktop and mobile users.
+- **User-Friendly Interface:** The frontend is built using React.js and TailwindCSS, offering smooth navigation and responsive design for both desktop and mobile users.
 
-- **Dynamic Search:** Users can easily search for cars based on preferences such as make, model, price range, and more.
+**Real-world Projects**: Learn by doing! Each course includes real-world projects that allow you to apply your skills to practical scenarios. Build your portfolio and showcase your work to potential employers.
 
-- **Real-Time Data:** The application fetches car information from a remote API using Axios, ensuring that users always see the latest available cars.
-
-- **Visually Appealing:** The user interface is styled using Tailwind CSS, offering a modern and visually appealing design that enhances the user experience.
-
-- **Detailed Car Information:** Clicking on a car's listing provides users with detailed information about the car, including images, specifications, rental rates, and availability.
+**Wide Range of Courses**: Choose from an extensive selection of coding courses, covering languages like Python, JavaScript, Java, C++, and more. Each course is designed by industry experts to provide you with a comprehensive learning experience.
 
 
 
-### How to Use:
-
-1. **Homepage:** Upon visiting the application, users are greeted with a user-friendly homepage showcasing featured cars.
-
-2. **Search:** Users can utilize the search bar to filter cars based on their preferences. Search results are displayed dynamically as users type.
-
-3. **Car Listings:** Clicking on a car listing leads users to a detailed page with comprehensive information about the selected car.
 
 ### Deployment:
 
-This project is deployed using Vercel, ensuring high availability and performance. Feel free to explore the project's code, contribute, or use it as a reference for creating your own car rental marketplace UI!
+This project is deployed using Netlify, ensuring high availability and performance. Feel free to explore the project's code, contribute, or use it as a reference for creating your own car rental marketplace UI!
 
-For a live demo, visit [Car Rental Marketplace UI][https://car-hub-nu-taupe.vercel.app/].
+For a live demo, visit [Codyfy live link][https://codyfy.netlify.app/].
 
 
 
