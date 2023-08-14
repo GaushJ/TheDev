@@ -28,7 +28,7 @@ function Navbar({ user }) {
                       d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
                     />
                   </svg>
-                  <span className="font-bold text-xl md:text-2xl text-gradient ">DevHub</span>
+                  <span className="font-bold text-xl md:text-2xl text-gradient ">Codyfy</span>
                 </NavLink>
               </div>
             </div>
